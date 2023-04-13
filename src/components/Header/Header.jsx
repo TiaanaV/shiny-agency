@@ -20,8 +20,8 @@ const Header = () => {
       </Link>
       <nav>
         <StyledLink to="/">Home</StyledLink>
-        <StyledLink to="/survey/1">Take the survey</StyledLink>
         <StyledLink to="/freelancers">Freelancers</StyledLink>
+        <StyledLink to="/survey/1">Take the survey</StyledLink>
       </nav>
     </AllHeader>
   )

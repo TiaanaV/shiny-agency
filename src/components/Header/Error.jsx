@@ -6,17 +6,18 @@ const ErrorWrapper = styled.div`
   margin: 30px;
   display: flex;
   flex-direction: column;
-  background-color: ${colors.background};
+  background-color: ${colors.backgroundLight};
   align-items: center;
 `
 
 const ErrorTitle = styled.h1`
   font-weight: 300;
+  color: ${colors.thirdly};
 `
 
 const ErrorSubtitle = styled.h2`
   font-weight: 300;
-  /* color: ${colors.secondary}; */
+  color: ${colors.thirdly};
 `
 const Picture = styled.img`
   max-width: 800px;
