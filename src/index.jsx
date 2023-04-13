@@ -13,7 +13,6 @@ import colors from './utils/style/colors.js'
 const GlobalStyle = createGlobalStyle`
   div{
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background-color:${colors.backgroundLight}
    }
 `
 
