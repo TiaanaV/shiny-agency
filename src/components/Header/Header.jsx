@@ -3,8 +3,9 @@ import styled from 'styled-components'
 import { StyledLink } from '../../utils/style/Atoms'
 import Logo from '../../assets/dark-logo.png'
 
-const AllHeader = styled.nav`
+const NavHeader = styled.nav`
   display: flex;
+  padding: 30px;
   justify-content: space-between;
   align-items: center;
 `
@@ -14,7 +15,7 @@ const LogoStyled = styled.img`
 
 const Header = () => {
   return (
-    <AllHeader>
+    <NavHeader>
       <Link to="/">
         <LogoStyled src={Logo} alt="logo-shiny" />
       </Link>
@@ -23,8 +24,10 @@ const Header = () => {
         <StyledLink to="/freelancers">Freelancers</StyledLink>
         <StyledLink to="/survey/1">Take the survey</StyledLink>
       </nav>
-    </AllHeader>
+    </NavHeader>
   )
 }
 
 export default Header
+
+// сделать линк активным при нажатии/выборе страницы как при ховер

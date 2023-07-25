@@ -14,7 +14,7 @@ const HomeWrapper = styled.div`
 `
 const LeftSection = styled.section`
   ${StyledLink} {
-    max-width: 250px;
+    flex: 1;
     padding: 7px 25px;
     color: white;
     cursor: pointer;
@@ -37,7 +37,8 @@ const Title = styled.h1`
   margin-bottom: 30px;
 `
 const Illustration = styled.img`
-  max-width: 550px;
+  flex: 1;
+  max-width: 500px;
 `
 
 function Home() {
